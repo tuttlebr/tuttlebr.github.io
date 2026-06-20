@@ -3,24 +3,38 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Page not found - Brandon Tuttle</title>
+    <title>404 — Brandon Tuttle</title>
     <meta name="robots" content="noindex">
+    <meta name="theme-color" content="#fbfaf7">
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500;700&display=swap">
     <link rel="stylesheet" href="assets/css/styles.css">
   </head>
-  <body class="not-found-page">
-    <main class="not-found" aria-labelledby="not-found-title">
-      <div class="shell">
-        <p class="eyebrow">404</p>
-        <h1 id="not-found-title">This page is not here.</h1>
-        <p class="hero-copy">
-          The link may be old, the note may not exist yet, or I may still be
-          deciding where it belongs.
-        </p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="index.html">Go home</a>
-          <a class="button button-secondary" href="https://github.com/tuttlebr">GitHub profile</a>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <main id="main" class="terminal">
+      <section class="block" aria-labelledby="nf-title">
+        <div class="prompt">
+          <span class="ps1" aria-hidden="true">brandon@daedalus<span class="sep">:~$</span></span>
+          <h1 class="cmd" id="nf-title">cat that-page</h1>
         </div>
+        <div class="output">
+          <p>cat: that-page: No such file or directory</p>
+          <p>The link is wrong or the page moved.</p>
+          <ul class="links">
+            <li><a href="/">cd ~ &nbsp;(home)</a></li>
+            <li><a href="https://github.com/tuttlebr">github.com/tuttlebr</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <div class="prompt closing" aria-hidden="true">
+        <span class="ps1">brandon@daedalus<span class="sep">:~$</span></span>
+        <span class="cursor"></span>
       </div>
     </main>
   </body>

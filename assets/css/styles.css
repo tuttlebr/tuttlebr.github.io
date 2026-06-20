@@ -6,7 +6,7 @@
   --ink: #1a1a18;     /* primary text */
   --muted: #6b6b66;   /* secondary text, captions, language tags */
   --line: #e5e2da;    /* hairlines and the output guide */
-  --accent: #a85410;  /* burnt amber — prompt, cursor, link hover only */
+  --accent: #00b415;  /* burnt amber — prompt, cursor, link hover only */
 
   --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
   --sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
